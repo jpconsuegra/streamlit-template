@@ -8,4 +8,4 @@ RUN rm starship.sh
 RUN pip install streamlit
 
 RUN pip install -U black
-RUN pip install -U mypy
+RUN pip install -U pylint
